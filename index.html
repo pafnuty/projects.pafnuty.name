@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Список моих проектов</title>
+	<script data-skip-moving="true">
+		function loadFont(t,e,n,o){function a(){if(!window.FontFace)return!1;var t=new FontFace("t",'url("data:application/font-woff2,") format("woff2")',{}),e=t.load();try{e.then(null,function(){})}catch(n){}return"loading"===t.status}var r=navigator.userAgent,s=!window.addEventListener||r.match(/(Android (2|3|4.0|4.1|4.2|4.3))|(Opera (Mini|Mobi))/)&&!r.match(/Chrome/);if(!s){var i={};try{i=localStorage||{}}catch(c){}var d="x-font-"+t,l=d+"url",u=d+"css",f=i[l],h=i[u],p=document.createElement("style");if(p.rel="stylesheet",document.head.appendChild(p),!h||f!==e&&f!==n){var w=n&&a()?n:e,m=new XMLHttpRequest;m.open("GET",w),m.onload=function(){m.status>=200&&m.status<400&&(i[l]=w,i[u]=m.responseText,o||(p.textContent=m.responseText))},m.send()}else p.textContent=h}}
+
+		loadFont('OpenSans', '/assets/css/opensans.css', '/assets/css/opensans-woff2.css');
+	</script>
+	<link href="/assets/css/main.css" rel="stylesheet">
+</head>
+<body>
+	<div class="main-container">
+		<header class="header clearfix">
+			<img src="/assets/images/foto.png" alt="Павел Белоуосв">
+			<div class="ov-h">
+				<h1>Мои проекты</h1>
+				<small>Павел Белоусов</small>
+			</div>
+		</header>
+
+		<section class="box">
+			<h2>Профили в разных сервисах и соцсетях</h2>
+			<ul class="profiles-list clearfix">
+				<li><a target="_blank" href="https://github.com/pafnuty">GitHub</a></li>
+				<li><a target="_blank" href="https://gist.github.com/pafnuty">Gist</a></li>
+				<li><a target="_blank" href="http://codepen.io/pafnuty/">CodePen</a></li>
+				<li><a target="_blank" href="https://toster.ru/user/PafNutY">Toster</a></li>
+				<li><a target="_blank" href="https://twitter.com/pafnuty_name">Twitter</a></li>
+				<li><a target="_blank" href="https://www.facebook.com/pbelousov">Facebook</a></li>
+			</ul>
+		</section>
+		<section class="box">
+			<h2>
+				Список проектов
+			</h2>
+			<ul class="project-list">
+				<li>
+					<h3>Сервисы</h3>
+					<ul>
+						<li>
+							<a target="_blank" href="http://antishell.ru/">AntiShell Скрипт</a>
+							<p>
+								Универсальный, бесплатный PHP-скрипт для предупреждения взлома Вашего сайта.
+							</p>
+						</li>
+						<li>
+							<a target="_blank" href="http://b64i.ru/">Base64 images</a>
+							<p>
+								Один из самых удобных сервисов для кодирования картинок в base64.
+							</p>
+						</li>
+						<li>
+							<a target="_blank" href="https://imgholder.ru/">imgHolder</a>
+							<p>Сервис для генерации картинок-заглушек.</p>
+						</li>
+						<li>
+							<a target="_blank" href="http://php.poligon.pro/">PHP Minify</a>
+							<p>Сервис для минификации php кода.</p>
+						</li>
+					</ul>
+				</li>
+
+				<li>
+					<h3>Плагины для Sublime Text</h3>
+					<ul>
+						<li>
+							<a target="_blank" href="https://github.com/pafnuty/sublime-fenom">Fenom Syntax</a>
+							<p>Подсветка синтаксиса для крутого php-шаблонизатора Fenom.</p>
+						</li>
+						<li>
+							<a target="_blank" href="https://github.com/pafnuty/imgHolder">imgHolder</a>
+							<p>Плагин для быстрой вставки картинок-заглушек с сайта imgholder.ru</p>
+						</li>
+						<li>
+							<a target="_blank" href="https://github.com/pafnuty/sublime-yandex-translate">Yandex Translate</a>
+							<p>Плагин для быстрого и удобного перевода текста</p>
+						</li>
+						<li>
+							<a target="_blank" href="https://github.com/pafnuty/BitrixSnippets">BitrixSnippets</a>
+							<p>Набор полехных сниппетов для разработки под Bitrix.</p>
+						</li>
+
+					</ul>
+				</li>
+
+				<li>
+					<h3>Bitrix</h3>
+					<ul>
+						<li>
+							<a target="_blank" href="https://github.com/pafnuty/LessForBitrix">LessForBitrix</a>
+							<p>
+								Компонент для эффективной и удобнок компиляции LESS для Bitrix.
+							</p>
+						</li>
+						<li>
+							<a target="_blank" href="https://github.com/pafnuty/cnAsset">cnAsset</a>
+							<p>
+								PHP-класс для реализации автоподключения js и css файлов из указанной папки на D7 Bitrix
+							</p>
+						</li>
+					</ul>
+				</li>
+
+				<li>
+					<h3>DataLife Engine</h3>
+					<ul>
+						<li>
+							<a target="_blank" href="http://dle-faq.ru/">dle-faq.ru</a>
+							<p>Сайт вопросов и ответов по DLE</p>
+						</li>
+						<li>
+							<a target="_blank" href="https://github.com/dle-modules/DLE-Faker">DLE-Faker</a>
+							<p>Модуль для заполнения БД тестовыми данными.</p>
+						</li>
+						<li>
+							<a target="_blank" href="https://github.com/dle-modules/EasyLike">EasyLike</a>
+							<p>Модуль для организации системы лайков.</p>
+						</li>
+						<li>
+							<a target="_blank" href="https://github.com/dle-modules/DLE-Asset">DLE-Asset</a>
+							<p>Модуль для автоматического подключения стилей и скриптов.</p>
+						</li>
+						<li>
+							<a target="_blank" href="https://github.com/dle-modules/DLE-LessCompiler">DLE-LessCompiler</a>
+							<p>LESS компилятор для DLE 8.x и выше.</p>
+						</li>
+						<li>
+							<a target="_blank" href="https://github.com/dle-modules/DLE-EditRating">DLE-EditRating</a>
+							<p>Модуль для удобного редактирования рейтинга новостей.</p>
+						</li>
+						<li>
+							<a target="_blank" href="https://github.com/dle-modules/DLE-UniForm">DLE-UniForm</a>
+							<p>Модуль для реализации универсальных и удобных ajax-форм.</p>
+						</li>
+						<li>
+							<a target="_blank" href="https://github.com/dle-modules/dle-sort-index">dle-sort-index</a>
+							<p>
+								[Глобальный хак] Индекс сортировки для новостей DLE (двойная сортировка).
+							</p>
+						</li>
+						<li>
+							<a target="_blank" href="https://github.com/dle-modules/DLE-Charset-Converter">DLE-Charset-Converter</a>
+							<p>
+								Скрипт-инструкция для конвертации базы данных и файлов DLE из windows-1251 в UTF-8.
+							</p>
+						</li>
+						<li>
+							<a target="_blank" href="https://github.com/dle-modules/ajax-full-story-DLE">{AJAX FULL-STORY}</a>
+							<p>Модуль для реализации AJAX-загрузки полной новости.</p>
+						</li>
+						<li>
+							<a target="_blank" href="https://github.com/dle-modules/userbox">UserBox</a>
+							<p>
+								Модуль для вывода информации о любом пользователе в любом месте сайта.
+							</p>
+						</li>
+						<li>
+							<a target="_blank" href="https://github.com/dle-modules/showattach">ShowAttach</a>
+							<p>
+								Модуль для вывода информации о файлах, прикреплённых к новостям.
+							</p>
+						</li>
+						<li>
+							<a target="_blank" href="https://github.com/dle-modules/DLE-RSS-Comments-Pro">DLE-RSS-Comments-Pro</a>
+							<p>Модуль для организации RSS-лент из комментариев к новостям.</p>
+						</li>
+						<li>
+							<a target="_blank" href="https://github.com/dle-modules/FakeUsersSearch">FakeUsersSearch</a>
+							<p>Модуль для поиска и удаления фэйковых пользователей.</p>
+						</li>
+						<li>
+							<a target="_blank" href="https://github.com/dle-modules/ShowStat">ShowStat</a>
+							<p>Модуль для отображения статистики генерации страниц.</p>
+						</li>
+						<li>
+							<a target="_blank" href="http://bp.pafnuty.name/">BlockPro</a>
+							<p>Лучший модуль для профессионального вывода новостей.</p>
+						</li>
+						<li>
+							<a target="_blank" href="http://maps.pafnuty.name/">Yandex Maps</a>
+							<p>Модулья для вывода меток из новостей на яндекс карте.</p>
+						</li>
+					</ul>
+				</li>
+
+				<li>
+					<h3>Morfy CMS</h3>
+					<ul>
+						<li>
+							<a target="_blank" href="https://github.com/pafnuty-morfy-plugins/morfy-plugin-boilerplate">Boilerplate</a>
+							<p>Заготовки для разработки типовых плагинов.</p>
+						</li>
+						<li>
+							<a target="_blank" href="https://github.com/pafnuty-morfy-plugins/morfy-plugin-detect">Detect</a>
+							<p>
+								Плагин для определения различных типов устройств, с которых пользователь просматривает сайт.
+							</p>
+						</li>
+						<li>
+							<a target="_blank" href="https://github.com/pafnuty-morfy-plugins/morfy-plugin-emoji">Emoji</a>
+							<p>Плагин для вывода эмодзи на страницах.</p>
+						</li>
+						<li>
+							<a target="_blank" href="https://github.com/pafnuty-morfy-plugins/morfy-plugin-socialmeta">Social Meta</a>
+							<p>
+								Плагин для автоматического создания метатегов и картинок для facebook и twitter.
+							</p>
+						</li>
+						<li>
+							<a target="_blank" href="https://github.com/pafnuty-morfy-plugins/morfy-plugin-thumb">Thumb</a>
+							<p>Плагин для создания миниатюр из изображений на странице.</p>
+						</li>
+						<li>
+							<a target="_blank" href="https://github.com/pafnuty-morfy-plugins/morfy-statistics">Statistics</a>
+							<p>Плагин для показа статистики генерации страницы.</p>
+						</li>
+						<li>
+							<a target="_blank" href="https://github.com/pafnuty-morfy-plugins/morfy-plugin-breadcrumb">Breadcrumb</a>
+							<p>Плагин для создания хлебных крошек.</p>
+						</li>
+						<li>
+							<a target="_blank" href="https://github.com/pafnuty-morfy-plugins/morfy-plugin-asset">Asset</a>
+							<p>
+								Плагин для автоматического подключения CSS и JS файлов в шаблон сайта.
+							</p>
+						</li>
+						<li>
+							<a target="_blank" href="https://github.com/pafnuty-morfy-plugins/morfy-less">Less Compiler</a>
+							<p>Плагин для компиляции less-файлов.</p>
+						</li>
+					</ul>
+				</li>
+
+				<li>
+					<h3>jQuery-плагины</h3>
+					<ul>
+						<li>
+							<a target="_blank" href="https://github.com/pafnuty/tabsToSelect">tabsToSelect</a>
+							<p>
+								Плагин для реализации табов, превращающихся в селект с колбэками и адаптивностью.
+							</p>
+						</li>
+						<li>
+							<a target="_blank" href="https://github.com/pafnuty/SimpleMobileNav">SimpleMobileNav</a>
+							<p>
+								Плагин для реализации полноэкранного меню из существующего на старнице кода
+							</p>
+						</li>
+						<li>
+							<a target="_blank" href="https://github.com/pafnuty/jQuery.niceCode">niceCode</a>
+							<p>
+								Плагин для вывода распечатки исходного кода в модальном окне.
+							</p>
+						</li>
+						<li>
+							<a target="_blank" href="https://github.com/pafnuty/SmartImages">SmartImages</a>
+							<p>
+								Плагин для показа всплывающих картинок с автопозиционированием.
+							</p>
+						</li>
+					</ul>
+				</li>
+
+				<li>
+					<h3>Прочие проекты</h3>
+					<ul>
+						<li>
+							<a target="_blank" href="https://github.com/pafnuty/onlineConsultantBlocker">Блокировщик онлайн консультантов</a>
+							<p>Самый простой способ избавиться от назойливых онлайн-консультантов</p>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</section>
+		<footer class="footer">
+			&copy; ПафНутиЙ 2016
+		</footer>
+	</div>
+</body>
+</html>
